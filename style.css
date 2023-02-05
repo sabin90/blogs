@@ -1,0 +1,264 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    margin-left: 215px;
+    border-radius: 30px;
+  }
+  
+  nav a:hover {
+    color: rgb(240, 53, 53);
+  }
+  
+  @media (max-width: 767px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  }
+  .content{
+    border: 3px solid rgb(93, 88, 88);
+    padding: 30px;
+    margin-bottom: 100px;
+    height: 100%vh;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    margin-left:-203px;
+    position: relative;
+    top: -28px;
+    border: 1px solid grey;
+    border-radius:50%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    left: 201px;
+      
+      
+      
+  }
+  h1{
+    text-align: center;
+    color: lightseagreen;
+
+  }
+  body{
+    background-image: url('l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+  }
+  p{
+    color: aqua;
+    
+  }
+  .form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .form-group {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+  
+  .form-submit-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .form-submit-btn:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size:24px;
+    margin: 0;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .support-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .options-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .option-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .option-description {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .btn-paypal {
+    background-color: #0070ba;
+  }
+  
+  .btn-credit-card {
+    background-color: #ffc000;
+  }
+  
+  .btn-other-services {
+    background-color: #999;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .link a {
+    color: #fff;
+  }
+  
+  .link:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  h2.option-title{
+    background-color:#fff ;
+  }
+  
+  
+  
+  
+
+  
